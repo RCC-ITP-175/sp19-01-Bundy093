@@ -31,6 +31,11 @@ ls -a
 #############################################################
 ls -alt
 
+# :::PROFESSOR FEEDBACK:::
+# This is correct, the t isn't required on this one though.
+# ls -al or ls -la would have been sufficient. No points off.
+# :::PROFESSOR FEEDBACK END:::
+
 #############################################################
 #    What is the command to list all files and folders
 #    in a directory sorted by when they were last
@@ -64,6 +69,11 @@ mkdir /course/week3
 #    do that?
 #############################################################
 cd /course/2019/spring/week2
+
+# :::PROFESSOR FEEDBACK:::
+# cd .. would have also worked and saved a few keystrokes
+# .. refers to the parent of the current directory. No points off.
+# :::PROFESSOR FEEDBACK END:::
 
 #############################################################
 #    You are in the /course/week2 directory and need
@@ -104,6 +114,12 @@ cp quiz.txt test.txt
 #############################################################
 cp m* .html public/
 
+# :::PROFESSOR FEEDBACK:::
+# m* not necessary
+# cp *.html public is correct
+# :::PROFESSOR FEEDBACK END:::
+
+
 #############################################################
 #    The directory you are working in currently has these files and directories.
 #           -rw-rw-r-- 1 app  app   875 Jul 26 18:02 index.html
@@ -115,5 +131,10 @@ cp m* .html public/
 #     How would you move all 4 html files into the public directory?
 #############################################################
 mv m* .html public/
+
+# :::PROFESSOR FEEDBACK:::
+# m* not necessary
+# mv *.html public is correct
+# :::PROFESSOR FEEDBACK END:::
 
 
